@@ -1,0 +1,106 @@
+.bg{
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgb(34, 172, 236) , rgb(255, 255, 255));
+}
+.onav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 8px;
+}
+.onav_left, .onav_status, .onav_right{
+    color: white;
+}
+.onav_left, .onav_status{
+    line-height: 40px;
+    height: 40px;
+}
+.onav_left{
+    font-size: 20px;
+}
+.onav_right{
+    font-size: 12px;
+    margin-top: 5px;
+    height: 35px;
+}
+.ostep{
+    background-color: white;
+    margin-top: 8px;
+    width: 96%;
+    margin-left: 2%;
+    border: rgb(235, 243, 239) solid 0.5px;
+    border-radius: 5px;
+}
+.van-steps{
+    text-align: left;
+}
+.ocontact{
+    border-top: solid 0.5px rgb(247, 237, 237);
+    text-align: left;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+.order_list{
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 6px;
+    border: 0.5px solid rgb(243, 243, 243);
+    background-color: white;
+}
+.sname{
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 8px;
+    color:rgb(168, 157, 157);
+}
+.food_list{
+    display: flex;
+    justify-content: space-between;
+}
+.fleft{
+    flex: 2;
+    margin-left: 8px;
+}
+.fright{
+    flex: 8;
+    font-size: 14px;
+}
+.ftile_and_price, .delivery_fee{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 8px;
+}
+.fleft .van-image{
+    border-radius: 5px;
+    overflow: hidden;
+}
+.fnum{
+    text-align: left;
+    margin: 8px;
+}
+.delivery_fee{
+    font-size: 14px;
+}
+.sum_price{
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 8px;
+}
+.o_more{
+    border-top: 0.5px solid #eee;
+    padding-top: 5px;
+}
+.o_more_card{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 5px 8px;
+}
+.oright{
+    text-align: right;
+}

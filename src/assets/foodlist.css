@@ -1,0 +1,414 @@
+.background{
+    background-image: url("../assets/img/1.2.jpg");
+    width: 100%;
+    height: 130px;
+    background-size: 100% 130px;
+  }
+  .nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  .back{
+    margin-left: 8px;
+  }
+  .func{
+    margin-right: 8px;
+  }
+  .FL_card{
+    width: 90%;
+    height: 130px;
+    margin-left: 5%;
+    background-color: white;
+    border: rgb(235, 243, 239) solid 0.5px;
+    position: absolute;
+    top:70px;
+    border-radius: 8px;
+    z-index: 100;
+  }
+  .card_info{
+    display: flex;
+    padding-top: 8px;
+    width: 100%;
+    height: 55px;
+  }
+  .hello .FL_card .card_info .card_left{
+    flex: 8;
+    text-align: left;
+    margin-left: 8px;
+  }
+  .hello .FL_card .card_info .card_left .name{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .hello .FL_card .card_info .card_left .infor{
+    margin-top: 6px;
+    font-size: 12px;
+  }
+  .hello .FL_card .card_info .card_right{
+    flex: 2;
+    text-align: center;
+  }
+  .hello .FL_card .card_info .card_right img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  .hello .FL_card .notice{
+    color: rgba(141, 148, 153, 0.76);
+    font-size: 12px;
+    width: 95%;
+    text-overflow: ellipsis;  /* ellipsis:显示省略符号来代表被修剪的文本  string:使用给定的字符串来代表被修剪的文本*/ 
+    white-space: nowrap;   /* nowrap:规定段落中的文本不进行换行   */ 
+    overflow: hidden; /*超出部分隐藏*/
+    margin-left: 8px;
+  }
+  .red_packet{
+    display: flex;
+    margin-left: 8px;
+    margin-top: 8px;
+  }
+  .p1{
+    background-color: rgb(236, 225, 69);
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: rgb(165, 99, 12);
+  }
+  .p1_dui{
+    background-color: rgb(236, 225, 69);
+    padding: 3px 8px;
+    border-radius: 3px;
+    border-left: rgb(158, 187, 172) dotted;
+    color: rgb(165, 99, 12);
+  }
+  .p2{
+    background-color: red;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: white;
+    margin-left: 5px;
+  }
+  .p2_dui{
+    background-color: red;
+    padding: 3px 8px;
+    border-radius: 3px;
+    border-left: rgb(235, 215, 215) dotted;
+    color: white;
+  }
+  .FL_main{
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .order{
+    margin-top: 8px;
+    display: flex;
+  }
+  .foods{
+    width: 82%;
+  }
+  .foods .title{
+    font-size: 14px;
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 5px;
+  }
+  .food_card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .fleft{
+    flex: 3;
+    text-align: center;
+  }
+  .fleft img{
+    width: 80px;
+    margin-top: 2px;
+    border-radius: 5px;
+    border: rgb(235, 243, 239) solid 0.5px;
+  }
+  .fright{
+    flex:7;
+    text-align: left;
+  }
+  .fname{
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .ftitle{
+    font-size: 12px;
+    color: rgba(141, 148, 153, 0.76);
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  .fsales{
+    font-size: 12px;
+    color: rgba(141, 148, 153, 0.76);
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  .shop{
+    display: flex;
+    justify-content: space-between;
+  }
+  .fprice{
+    font-size: 12px;
+    color: rgba(141, 148, 153, 0.76);
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  .shopping_list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .num{
+    margin: 0 8px;
+    font-size: 20px;
+  }
+  .dec, .add{
+    padding: 4px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+  }
+  .dec{
+    background-color: white;
+    border: solid rgb(0, 178, 248) 0.5px;
+    color: rgb(0, 178, 248);
+  }
+  .add{
+    background-color: rgb(0, 178, 248);
+    color: white;
+    margin-right: 8px;
+  }
+  .eva_main{
+    background-color: rgb(245, 238, 238);
+  }
+  .eva_card{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 8px;
+    border: solid 0.5px rgb(248, 242, 242);
+  }
+  .eva_block{
+    background-color: white;
+    width: 96%;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 2%;
+  }
+  .eva_nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 0.5px solid rgb(240, 233, 233);
+  }
+  .eva_nav_left{
+    display: flex;
+    height: 40px;
+    text-align: left;
+  }
+  .eva_nav_left .van-image{
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 8px;
+  }
+  .eva_nav_right{
+    line-height: 40px;
+    font-size: 14px;
+    color: rgb(204, 186, 186);
+    margin-right: 8px;
+  }
+  .eva_detail{
+    display: flex;
+    justify-content: space-between;
+  }
+  .ed_left{
+    flex: 7.5;
+  }
+  .ed_right{
+    flex: 2.5;
+  }
+  .eva_content{
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 8px;
+  }
+  
+  .eva_food{
+    text-align: left;
+    font-size: 12px;
+    margin-left: 8px;
+    font-family: '楷体';
+  }
+  .eleft{
+    color: rgb(228, 146, 52);
+    font-size: 30px;
+    margin: 6px 8px;
+    padding-top: 8px;
+  }
+  .eright{
+    margin-right: 8px;
+    margin: 6px 8px;
+    font-size: 12px;
+    color: rgba(141, 148, 153, 0.76);
+    display: flex;
+    text-align: left;
+  }
+  .erdetail{
+    padding: 0 8px;
+    line-height: 20px;
+  }
+  .info_main{
+    height: 400px;
+    background-color: rgb(248, 241, 241);
+    position: relative;
+  }
+  .icards{
+    position: absolute;
+    margin-top: 8px;
+    width: 100%;
+  }
+  .info_card{
+    width: 96%;
+    margin-left: 2%;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .address{
+    display: flex;
+    justify-content: space-between;
+  }
+  .aleft{
+    flex:8.5;
+    text-align: left;
+    padding: 8px;
+    padding-bottom: 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .aright{
+    flex: 1.5;
+    font-size: 30px;
+    margin-top: 8px;
+    border-left: rgb(238, 233, 233) solid 1px;
+  }
+  .more_info{
+    text-align: left;
+    padding: 8px;
+  }
+  .ibutton{
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(77, 79, 82);
+    padding: 4px 8px;
+    border: rgb(77, 79, 82) solid 1px;
+    border-radius: 16px;
+    margin: 10px auto;
+  }
+  .report{
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 32px;
+    color: black;
+  }
+  .shopping_car{
+    z-index: 3000;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 0;
+  }
+  .cleft{
+    display: flex;
+    margin-left: 8px;
+    flex: 6;
+  }
+  .aright{
+    flex: 4;
+  }
+  .cleft svg{
+    font-size: 50px;
+  }
+  .cleft .sum_price{
+    padding-top: 10px;
+    line-height: 18px;
+    height: 40px;
+    text-align: left;
+    margin-left: 8px;
+  }
+  .cright .van-button{
+      margin-top: 3px;
+  }
+  .van-popup{
+    margin-bottom: 66px;
+    max-height: 80%;
+  }
+
+  /* 已选菜品信息 */
+  .shoplist_nav{
+    margin-top: 8px;
+    padding: 0 2%;
+    position: fixed;
+    height: 20px;
+    background-color: white;
+    width: 96%;
+    z-index: 100;
+  }
+  .shoplist_fcard, .shoplist_nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .shoplist_nav_left, .shoplist_nav_right{
+    height: 20px;
+    line-height: 20px;
+  }
+  .shoplist_nav_left{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .shoplist_nav_right{
+    font-size: 14px;
+    color: rgb(173, 158, 158);
+  }
+  .shoplist_fcard{
+    margin-top: 8px;
+  }
+  .shoplist_fcard_left{
+    margin-left: 8px;
+    flex: 2;
+  }
+  .shoplist_fcard_left .van-image{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .shoplist_fcard_right{
+    flex: 8;
+    text-align: left;
+    margin-left: 8px;
+  }
+  .fcard_title{
+    font-size:14px;
+    font-weight:700;
+  }
+  .fcard_price{
+    color:red;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+  }
+  

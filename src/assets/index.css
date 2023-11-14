@@ -1,0 +1,83 @@
+
+/* 使用iconfont图标 */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+/* 店铺信息列表背景 */
+.main {
+    background-color: rgb(222, 233, 233);
+    margin-bottom: 55px;
+  }
+/* 店铺卡片样式 */
+.store_card {
+    background-color: white;
+    border-radius: 5px;
+    height: 103px;
+    width: 100%;
+    margin-top: 8px;
+    display: flex;
+  }
+  /* 店铺图片 */
+  .store_card .card_left {
+    flex: 3;
+    text-align: center;
+  }
+  .store_card .card_left img {
+    width: 93px;
+    margin-top: 5px;
+    border-radius: 8px;
+  }
+  /* 店铺信息 */
+  .store_card .card_right {
+    flex: 7;
+    text-align: left;
+  }
+  .right_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-bottom: 2px;
+  }
+  /* 店铺名样式 */
+  .right_header .RH_title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .right_header .RH_more {
+    font-size: 20px;
+  }
+  /* 店铺评分相关信息样式 */
+  .right_detail {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(141, 148, 153, 0.76);
+    font-size: 12px;
+  }
+  .RD_evaluate {
+    margin-left: 8px;
+  }
+  .RD_distribution {
+    margin-right: 8px;
+  }
+  .right_price {
+    color: rgba(141, 148, 153, 0.76);
+    font-size: 12px;
+    text-align: left;
+    margin: 3px auto 3px 8px;
+  }
+  .right_title {
+    border-radius: 5px;
+    background-color: rgb(245, 227, 169);
+    margin-top: 2px;
+    margin-left: 8px;
+    padding: 2px 15px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-size: 14px;
+    color: rgb(231, 114, 18);
+  }

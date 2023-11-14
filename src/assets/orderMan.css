@@ -1,0 +1,69 @@
+.bg{
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgb(34, 172, 236) , rgb(255, 255, 255));
+}
+.onav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 8px;
+}
+.onav_left, .onav_status, .onav_right{
+    color: white;
+}
+.onav_left, .onav_status{
+    line-height: 40px;
+    height: 40px;
+}
+.onav_left{
+    font-size: 20px;
+}
+.onav_right{
+    font-size: 12px;
+    margin-top: 5px;
+    height: 35px;
+}
+.omain{
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 6px;
+    border: 0.5px solid rgb(243, 243, 243);
+    background-color: white;
+    font-size: 14px;
+}
+.omain_title{
+    text-align: left;
+    margin: 4px 8px;
+}
+.order_card{
+    width: 92%;
+    margin-left: 2%;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 0.5px solid rgb(243, 243, 243);
+    line-height: 20px;
+    padding: 2%;
+    margin-top: 8px;
+}
+.order_sname{
+    font-weight: 700;
+    text-align: left;
+    padding: 0 4px;
+}
+.order_foods, .order_num, .order_time, .order_price{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4px;
+}
+.order_foods {
+    margin: 8px 0;
+}
+.order_price{
+    border-top: 0.5px solid rgb(243, 243, 243);
+    padding-top: 8px;
+}
+.delivery_btn{
+    text-align: right;
+    margin-top: 12px;
+}

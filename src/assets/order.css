@@ -1,0 +1,125 @@
+.bg{
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgb(34, 172, 236) , rgb(255, 255, 255));
+}
+.order_nav{
+    color: white;
+    display: flex;
+    width: 100%;
+    padding-top: 8px;
+}
+.back{
+    margin-left: 2%;
+    width: 5%;
+}
+.order_title{
+    width: 26%;
+    margin-left: 30%;
+}
+.order_tips{
+    width: 92%;
+    margin-left: 2%;
+    background-color: rgb(248, 225, 121);
+    border-radius: 5px;
+    text-align: left;
+    padding: 4px 2%;
+    font-size: 14px;
+    margin-top: 8px;
+    color: rgb(212, 137, 50);
+    font-family: "楷体","楷体_GB2312";
+    border: 0.5px solid rgb(233, 202, 29);
+}
+.order_address, .order_list{
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 6px;
+    border: 0.5px solid rgb(243, 243, 243);
+}
+.address, .delivery_time{
+    background-color: white;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 4px 8px;
+}
+.address_left{
+    flex: 8.5;
+    line-height: 20px;
+}
+.address_right{
+    flex: 1.5;
+    text-align: right;
+    line-height: 40.8px;
+}
+.delivery_time_left{
+    font-size: 14px;
+}
+.delivery_time{
+    height: 30px;
+    line-height: 30px;
+}
+.sname{
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 8px;
+    color:rgb(168, 157, 157);
+}
+.food_list{
+    display: flex;
+    justify-content: space-between;
+}
+.fleft{
+    flex: 2;
+    margin-left: 8px;
+}
+.fright{
+    flex: 8;
+    font-size: 14px;
+}
+.ftile_and_price, .delivery_fee{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 8px;
+}
+.fleft .van-image{
+    border-radius: 5px;
+    overflow: hidden;
+}
+.fnum{
+    text-align: left;
+    margin: 8px;
+}
+.delivery_fee{
+    font-size: 14px;
+}
+.sum_price{
+    margin-top: 10px;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    border-top: 0.5px solid #eee;
+    text-align: right;
+    margin-right: 8px;
+}
+.submit_cell{
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    justify-content: right;
+    display: flex;
+    width: 100%;
+    padding: 8px 0;
+}
+.submit_price{
+    font-size: 12px;
+    color: red;
+    margin-right: 8px;
+    margin-top: 6px;
+}
+.sub_btn{
+    margin-right: 8px;
+}
